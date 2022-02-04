@@ -1,0 +1,74 @@
+# The Site Configuration
+
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# Build settings
+# Theme
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# ↓ --------------------------
+
+title: Aroxoft
+email: aroxoft+pages@gmail.com
+tagline: Aroxoft, mobile applications development # sub-title
+description: >-                         # used by seo meta and the atom feed
+  At Aroxoft, we conceive and develop 
+  mobile apps with native performance by 
+  developing either directly in native 
+  Android (kotlin) or with Flutter
+
+# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
+# and doesn't have a custom domain.
+baseurl: '' # the subpath of your site, e.g. /blog
+
+# the base hostname & protocol for your site
+url: "https://aroxoft.github.io"
+
+github_username: Aroxoft
+#twitter_username: twitter_username            # change to your twitter username
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+  sass_dir: _scss
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .idea/
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

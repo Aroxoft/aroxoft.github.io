@@ -1,0 +1,14 @@
+# bundler cache
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# rubygem
+*.gem
+
+# npm dependencies
+node_modules
+
+.idea/
