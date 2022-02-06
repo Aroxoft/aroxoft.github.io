@@ -2,13 +2,14 @@
 layout: page
 title: Privacy policy
 permalink: /privacy/
+weight: 3
 ---
+## Application Tagros points
 **Last updated February 2nd, 2022**
 
 Thank you for choosing to be part of our community at Aroxoft ("**Company**,” "**we**," "**us**," or "**our**”). We are
 committed to protecting your personal information and your right to privacy. If you have any questions or concerns about
-this privacy notice or our practices with regard to your personal information, please contact us at
-aroxoft+privacy@gmail.com.
+this privacy notice or our practices with regard to your personal information, please [email us][1].
 
 This privacy notice describes how we might use your information if you
 
@@ -164,7 +165,7 @@ We do not knowingly solicit data from or market to children under 18 years of ag
 you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent's use of
 the App. If we learn that personal information from users less than 18 years of age has been collected, we will
 deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware
-of any data we may have collected from children under age 18, please contact us at aroxoft+privacy@gmail.com
+of any data we may have collected from children under age 18, please [contact us][1].
 
 ## 7. WHAT ARE YOUR PRIVACY RIGHTS?
 
@@ -261,7 +262,7 @@ in-person, online, or by phone or mail in the context of:
 
 More information about our data collection and sharing practices can be found in this privacy notice.
 
-You may contact us by email at aroxoft+privacy@gmail.com.
+You may contact us by email with [this form][1].
 
 If you are using an authorized agent to exercise your right to opt-out we may deny a request if the authorized agent
 does not submit proof that they have been validly authorized to act on your behalf.
@@ -330,7 +331,7 @@ will delete such additionally provided information as soon as we finish verifyin
   with the CCPA.
 * you may request to opt-out from future selling of your personal information to third parties. Upon receiving a request
   to opt-out, we will act upon the request as soon as feasibly possible, but no later than 15 days from the date of the
-  request submission. To exercise these rights, you can contact us by email at aroxoft+privacy@gmail.com. If you have a
+  request submission. To exercise these rights, you can contact us by email with [this form][1]. If you have a
   complaint about how we handle your data, we would like to hear from you.
 
 ## 10. DO WE MAKE UPDATES TO THIS NOTICE? 
@@ -343,10 +344,12 @@ notification. We encourage you to review this privacy notice frequently to be in
 information.
 
 ## 11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
-If you have questions or comments about this notice, you may email us at aroxoft+privacy@gmail.com.
+If you have questions or comments about this notice, you may email us with [this form][1].
 
 
 ## 12. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?     
 Based on the applicable laws of your country, you may have the right to request access to the personal information 
 we collect from you, change that information, or delete it in some circumstances. To request to review, update, or
-delete your personal information, please email us at aroxoft+privacy@gmail.com.
+delete your personal information, please [email us][1].
+
+[1]: /contact?privacy=true

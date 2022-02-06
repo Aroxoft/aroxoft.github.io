@@ -1,0 +1,17 @@
+# Get Icons  from : https://fontawesome.com/icons
+# Get Colors from : https://brandcolors.net/
+
+email:
+  url   : "/"
+  icon  : fas fa-envelope
+  color : db4437
+
+github:
+  url   : https://www.github.com/
+  icon  : fab fa-github
+  color : db4437
+
+playstore:
+  url   : https://play.google.com/store/apps/dev?id=
+  icon  : fab fa-google-play
+  color : db4437

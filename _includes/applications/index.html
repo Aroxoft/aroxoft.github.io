@@ -1,0 +1,59 @@
+
+<div class="card-columns m-3 mt-5">
+
+  <!-- Remote Projects -->
+  {% for remote_app in page.remote_apps %}
+
+    {%- for repo in site.github.public_repositories -%}
+
+      {%- if remote_app == repo.name -%}
+
+        {%- assign app = repo -%}
+        {%- assign words = app.name | split: '-' -%}
+        
+        {%- capture titlecase -%}
+          {%- for word in words -%}
+            {{ word | capitalize | append: ' ' }}
+          {%- endfor -%}
+        {%- endcapture -%}
+
+        {%- assign app_type  = "remote" -%}
+        {%- assign app_id    = app.name -%}
+        {%- assign app_img   = false -%}
+        {%- assign app_name  = titlecase | strip -%}
+        {%- assign app_desc  = app.description -%}
+        {%- assign app_url   = app.html_url -%}
+        {%- assign app_tools = app.topics -%}
+        {%- assign external      = true -%}
+
+        {% include applications/app-card.html %}
+
+      {%- endif -%}
+
+    {%- endfor -%}
+
+  {% endfor %}
+
+  <!-- Local Projects -->
+  {% for app in site.applications %}
+
+    {%- assign app_type  = "local" -%}
+    {%- assign app_id    = app.name | slugify -%}
+    {%- assign app_img   = app.image -%}
+    {%- assign app_name  = app.name -%}
+    {%- assign app_desc  = app.description -%}
+    {%- assign app_tools = app.tools -%}
+
+    {%- if app.external_url -%}
+      {%- assign app_url = app.external_url -%}
+      {%- assign external    = true -%}
+    {%- else -%}
+      {%- assign app_url = app.url | relative_url -%}
+      {%- assign external    = false -%}
+    {%- endif -%}
+
+    {% include applications/app-card.html %}
+
+  {% endfor %}
+
+</div>

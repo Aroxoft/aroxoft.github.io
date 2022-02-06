@@ -20,11 +20,12 @@
 
 # Build settings
 # Theme
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jemoji
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -45,8 +46,58 @@ baseurl: '' # the subpath of your site, e.g. /blog
 # the base hostname & protocol for your site
 url: "https://aroxoft.github.io"
 
-github_username: Aroxoft
-#twitter_username: twitter_username            # change to your twitter username
+author:
+  name      : Aroxoft
+  email     : contact
+  image     : "/assets/images/logo.png"
+  github    : Aroxoft
+  playstore : 6123431601169861140
+#  twitter: twitter_username            # change to your twitter username
+
+### Posts ###
+permalink: /blog/:title
+
+### Navbar Settings ###
+nav_exclude:
+  - pages/tags.md
+  - pages/contact.html
+### Collections ###
+collections:
+  applications:
+    output: true
+    permalink: /apps/:name
+  elements: # a test
+    output: true # a test
+
+
+### Disqus ###
+#disqus:
+#  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "applications"
+    values:
+      layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false                                   # Set to true to enable disqus comments
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
@@ -62,12 +113,13 @@ sass:
 #
 exclude:
   - .idea/
-#   - .sass-cache/
-#   - .jekyll-cache/
+  - portfolYou-theme-LICENSE
+  - .sass-cache/
+  - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/

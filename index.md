@@ -2,11 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
+permalink: /
 ---
 
-Welcome to Aroxoft!
-
-```text
-This website is under construction, please come back later...
-```
+{% include landing.html %}

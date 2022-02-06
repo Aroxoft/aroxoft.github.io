@@ -1,0 +1,9 @@
+---
+layout: default 
+title: Blog 
+permalink: /blog/
+weight: 2
+---
+
+{% include blog/search.html %}
+{% include blog/index.html %}
