@@ -8,6 +8,8 @@ description: A counter for tarot card French game (and with a variant for more p
 
 A counter for tarot card French game (and with a variant for more people)
 
+[Download it in the Google Play Store](https://play.google.com/store/apps/details?id=com.aroxoft.tagros.points)
+
 ## What is this app about?
 ### What is tagros?
 Tarot is a classical French card game, competitively played with 4 players (with variants for 3 and 5 players), designed in different rounds, where the "attack" plays against the "defense", in order to win a certain amount of points. The attack and defense are different in each round.
