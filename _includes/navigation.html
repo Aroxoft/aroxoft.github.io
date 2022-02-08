@@ -1,7 +1,9 @@
 <nav>
-  {% for item in site.data.navigation %}
-  <a href = "{{item.link}}" class = "{% if page.url == item.link %} nav-selected {% endif %}">
-    {{item.name}}
-  </a>
-  {% endfor %}}
+  <div class = "container">
+    {% for item in site.data.navigation %}
+    <a href = "{{item.link}}" class = "{% if page.url == item.link %} nav-selected {% endif %}">
+      {{item.name}}
+    </a>
+    {% endfor %}}
+  </div>
 </nav>

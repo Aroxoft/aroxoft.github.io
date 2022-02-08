@@ -31,14 +31,16 @@ function initTheme() {
 }
 
 function toggleTheme() {
-  const theme = getTheme();
-  const newTheme = theme === themes.DARK ? themes.LIGHT : themes.DARK;
+  const newTheme = themeIsDark() ? themes.LIGHT : themes.DARK;
   setTheme(newTheme);
   localStorage.setItem(STORAGE_KEY, newTheme);
 }
 
 function getTheme() {
   return document.documentElement.getAttribute(THEME_ATTR);
+}
+function themeIsDark() {
+  return getTheme() === themes.DARK;
 }
 
 function setTheme(value) {

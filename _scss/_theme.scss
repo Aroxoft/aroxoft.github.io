@@ -17,6 +17,7 @@
   .navbar-nav .nav-link.active {
     @include themed(color, $text-black, $text-white);
   }
+
   .navbar-brand h5 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5em;
@@ -35,3 +36,7 @@
   @include themed(background-color, $light, $dark);
 }
 
+.badge-themed {
+  @include themed(background-color, $dark, $light);
+  @include themed(color, $light, $dark)
+}

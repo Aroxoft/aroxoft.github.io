@@ -1,4 +1,4 @@
-<div class = "animate__animated animate__fadeIn animate__slow">
+<div class = "animate__animated animate__fadeIn animate__slow col-sm-6 col-lg-4 mb-4">
   <a href = "{{ app_url }}" class = "app card text-themed" {%- if external and site.open_new_tab -%} target = "_blank"
      {%- endif -%}>
     {%- if app_img -%}
@@ -7,7 +7,7 @@
     <div class = "card-body">
       <h5 id = "{{ app_id }}-name" class = "card-title">
         {%- if app_type == "remote" -%}
-        <i class = "fab fa-github" data-toggle = "tooltip" data-placement = "bottom" data-delay = "250"
+        <i class = "fab fa-github" data-bs-toggle = "tooltip" data-bs-placement = "bottom" data-bs-delay = "250"
            title = "GitHub Repository"></i> |&nbsp;
         {%- endif -%}
         {{ app_name }}
@@ -15,7 +15,7 @@
       <p id = "{{ app_id }}-desc" class = "card-text">{{ app_desc }}</p>
       <p id = "{{ app_id }}-tools" class = "card-text">
         {%- for tool in app_tools -%}
-        <span class = "badge badge-pill text-primary border border-primary ml-1">{{ tool }}</span>
+        <span class = "badge rounded-pill text-primary link-primary border border-primary ms-1">{{ tool }}</span>
         {%- endfor -%}
       </p>
     </div>

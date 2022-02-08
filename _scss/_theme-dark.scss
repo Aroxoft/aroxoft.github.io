@@ -78,6 +78,11 @@ $dark-900: #17191a;
     }
   }
 
+  .list-group-item.disabled {
+    background-color: $dark-600;
+    color: darken($text-white, 10);
+  }
+
   // Post
   .post footer {
     text-decoration: none;

@@ -20,7 +20,7 @@ layout: default
     Tags:
     {% for tag in page.tags %}
     <a class = "text-decoration-none no-underline" href = "{{ tag | slugify | prepend:'/blog/tags#' | relative_url }}">
-      <span class = "tag badge badge-pill text-primary border border-primary">{{ tag }}</span>
+      <span class = "tag badge rounded-pill text-primary link-primary border border-primary">{{ tag }}</span>
     </a>
     {% endfor %}
     {%- endif -%}
