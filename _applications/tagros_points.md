@@ -1,7 +1,7 @@
 ---
 title: Tagros points
 name: Tagros points
-tools: [Flutter]
+tools: [Flutter,Google Play Store]
 image: /assets/images/tagros.png
 description: A counter for tarot card French game (and with a variant for more people)
 ---
